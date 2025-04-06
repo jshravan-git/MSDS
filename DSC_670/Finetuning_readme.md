@@ -97,3 +97,30 @@ This approach is ideal for applications like:
 - Add more examples to improve output diversity
 - Experiment with prompt engineering post-finetuning
 - Evaluate performance against base model
+
+
+---
+
+## 💬 Example: Inference with the Fine-Tuned Model
+
+Once the model has been fine-tuned and deployed, you can use it to generate domain-specific responses. Here's an example interaction:
+
+### 🔍 User Query:
+```
+Give me a recipe for chicken Meatloaf
+```
+
+### 🤖 Model Response:
+```
+Recipe Name: Chicken Meatloaf  
+Ingredients: ground chicken, onion, panko breadcrumbs, Parmesan cheese, egg, garlic, ketchup, salt, and pepper  
+Instructions:  
+1. Preheat oven to 350°F (175°C).  
+2. In a bowl, combine all ingredients and mix well.  
+3. Shape the mixture into a loaf and place it in a greased baking dish.  
+4. Top with ketchup and bake for 50 minutes.  
+5. Let it rest before slicing and serving.
+```
+
+This demonstrates how the fine-tuned model understands the user prompt and delivers a clear, structured response within its trained domain.
+
