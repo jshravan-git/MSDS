@@ -1,30 +1,30 @@
 
-# 🤖 Fine-Tuning an OpenAI Model for Domain-Specific Responses
+#  Fine-Tuning an OpenAI Model for Domain-Specific Responses
 
 ### Author: Saravanan Janarthanan  
 
 ---
 
-## 📌 Project Objective
+##  Project Objective
 
 This project demonstrates how to fine-tune an OpenAI language model using custom data. The goal is to create a model that provides precise and structured responses to domain-specific queries — in this case, about chicken recipes.
 
 ---
 
-## 🧠 What is Fine-Tuning?
+##  What is Fine-Tuning?
 
 Fine-tuning allows you to take a base large language model and retrain it slightly using your own curated dataset. This helps the model specialize in tasks or topics you care about most — like answering with a specific format, tone, or knowledge base.
 
 ---
 
-## 📂 Dataset Preparation
+##  Dataset Preparation
 
 The dataset is formatted in JSONL (JSON Lines), where each line represents a conversational exchange using OpenAI's role-based structure:
 - **System**: Defines assistant behavior.
 - **User**: Provides a sample query.
 - **Assistant**: Offers the model's expected response.
 
-### ✅ Sample Format:
+###  Sample Format:
 ```json
 {
   "messages": [
@@ -37,7 +37,7 @@ The dataset is formatted in JSONL (JSON Lines), where each line represents a con
 
 ---
 
-## 🛠️ Fine-Tuning Steps
+##  Fine-Tuning Steps
 
 ### 1. **Create the JSONL File**
 The file (`Chicken_receipe.jsonl`) is manually structured to contain conversation-style examples suitable for training.
@@ -66,7 +66,7 @@ Once submitted, the job status is monitored until completion. If successful, the
 
 ---
 
-## 🔁 Benefits of Fine-Tuning
+##  Benefits of Fine-Tuning
 
 - **Domain Focus**: Tailor the model for specific subject areas
 - **Structured Output**: Enforce response formats
@@ -74,7 +74,7 @@ Once submitted, the job status is monitored until completion. If successful, the
 
 ---
 
-## 🔚 Conclusion
+##  Conclusion
 
 Fine-tuning enhances a base LLM by teaching it how to behave in specific contexts. With a well-prepared dataset and structured JSONL formatting, the model can provide highly accurate, domain-relevant responses.
 
@@ -93,7 +93,7 @@ This approach is ideal for applications like:
 
 ---
 
-## 🧠 Future Improvements
+##  Future Improvements
 - Add more examples to improve output diversity
 - Experiment with prompt engineering post-finetuning
 - Evaluate performance against base model
@@ -101,16 +101,16 @@ This approach is ideal for applications like:
 
 ---
 
-## 💬 Example: Inference with the Fine-Tuned Model
+##  Example: Inference with the Fine-Tuned Model
 
 Once the model has been fine-tuned and deployed, you can use it to generate domain-specific responses. Here's an example interaction:
 
-### 🔍 User Query:
+###  User Query:
 ```
 Give me a recipe for chicken Meatloaf
 ```
 
-### 🤖 Model Response:
+###  Model Response:
 ```
 Recipe Name: Chicken Meatloaf  
 Ingredients: ground chicken, onion, panko breadcrumbs, Parmesan cheese, egg, garlic, ketchup, salt, and pepper  
