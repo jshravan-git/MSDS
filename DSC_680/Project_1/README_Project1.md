@@ -1,17 +1,17 @@
 
-# 🛡️ Real-Time Fraud Detection Using Machine Learning
+# Real-Time Fraud Detection Using Machine Learning
 
 This Jupyter notebook that demonstrates how to build a real-time fraud detection system using machine learning techniques. 
 
 ---
 
-## 📌 Objective
+## Objective
 
 To develop a machine learning-based system to identify and prevent fraudulent banking transactions in real time, enhancing security and minimizing financial losses.
 
 ---
 
-## 📊 Dataset Summary
+## Dataset Summary
 
 - **Records**: 200,000 banking transactions
 - **Features**: 24 columns including customer info, transaction details, and fraud indicators
@@ -19,7 +19,7 @@ To develop a machine learning-based system to identify and prevent fraudulent ba
 
 ---
 
-## 🧹 Data Preprocessing
+##  Data Preprocessing
 
 - Dropped irrelevant or sensitive fields (e.g., names, emails)
 - Created engineered features:
@@ -32,7 +32,7 @@ To develop a machine learning-based system to identify and prevent fraudulent ba
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 - Univariate analysis on age, gender, account type, and balance
 - Multivariate insights showed no strong pattern tied to any single feature
@@ -40,7 +40,7 @@ To develop a machine learning-based system to identify and prevent fraudulent ba
 - Weak correlation between numerical features and fraud
 ---
 
-## 📊 Visualizations
+##  Visualizations
 
 The notebook includes several visualizations to support analysis and model insights:
 
@@ -54,7 +54,7 @@ These visualizations helped guide feature engineering and informed model selecti
 
 ---
 
-## 🧠 Machine Learning Models Used
+##  Machine Learning Models Used
 
 - Logistic Regression
 - Random Forest
@@ -69,13 +69,13 @@ These visualizations helped guide feature engineering and informed model selecti
 
 ---
 
-## ⚖️ Class Imbalance Handling
+##  Class Imbalance Handling
 
 Used **SMOTE (Synthetic Minority Over-sampling Technique)** to balance the dataset (originally only 5% fraudulent cases).
 
 ---
 
-## 📈 Key Findings
+##  Key Findings
 
 - **Neural Network** had the best recall (caught most fraud)
 - **XGBoost** had the best precision (fewer false alarms)
@@ -83,7 +83,7 @@ Used **SMOTE (Synthetic Minority Over-sampling Technique)** to balance the datas
 
 ---
 
-## ✅ Recommendations
+##  Recommendations
 
 - Use Neural Network to maximize fraud detection
 - Use XGBoost to minimize false positives
