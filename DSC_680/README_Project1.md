@@ -1,7 +1,7 @@
 
 # 🛡️ Real-Time Fraud Detection Using Machine Learning
 
-This Jupyter notebook that demonstrates how to build a real-time fraud detection system using machine learning techniques. The project was developed as part of Bellevue University's DSC680 Applied Data Science course.
+This Jupyter notebook that demonstrates how to build a real-time fraud detection system using machine learning techniques. 
 
 ---
 
@@ -38,6 +38,19 @@ To develop a machine learning-based system to identify and prevent fraudulent ba
 - Multivariate insights showed no strong pattern tied to any single feature
 - Peak fraud activity between 10 PM and 6 AM
 - Weak correlation between numerical features and fraud
+---
+
+## 📊 Visualizations
+
+The notebook includes several visualizations to support analysis and model insights:
+
+- **Distribution Plots**: Age, transaction amount, and account balance distributions for both fraud and non-fraud cases
+- **Box Plots**: Comparison of transaction characteristics across fraud labels
+- **Fraud by Hour**: Time-based trends showing higher fraud activity during late-night hours (10 PM – 6 AM)
+- **Categorical Analysis**: Multivariate breakdowns by gender, account type, device type, and transaction type
+- **Correlation Heatmaps**: Visual display of relationships (or lack thereof) between numerical variables and fraud
+
+These visualizations helped guide feature engineering and informed model selection.
 
 ---
 
@@ -84,25 +97,4 @@ Used **SMOTE (Synthetic Minority Over-sampling Technique)** to balance the datas
 
 ---
 
-## 📜 Acknowledgment
 
-This work was completed as part of Bellevue University's DSC680 course under the guidance of Professor Amirfarrokh Iranitalab.
-
----
-
-
----
-
-## 📊 Visualizations
-
-The notebook includes several visualizations to support analysis and model insights:
-
-- **Distribution Plots**: Age, transaction amount, and account balance distributions for both fraud and non-fraud cases
-- **Box Plots**: Comparison of transaction characteristics across fraud labels
-- **Fraud by Hour**: Time-based trends showing higher fraud activity during late-night hours (10 PM – 6 AM)
-- **Categorical Analysis**: Multivariate breakdowns by gender, account type, device type, and transaction type
-- **Correlation Heatmaps**: Visual display of relationships (or lack thereof) between numerical variables and fraud
-
-These visualizations helped guide feature engineering and informed model selection.
-
----
