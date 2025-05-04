@@ -4,9 +4,4 @@ title: Saravanan Janarthanan
 show_dowloads: true
 theme: jekyll-theme-minimal
 
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      css: /assets/css/style.css
+
