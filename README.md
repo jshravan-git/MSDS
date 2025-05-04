@@ -36,5 +36,5 @@ Build a real-time fraud detection system using machine learning techniques
 
 ## Contact
 📫 Email: jshravan@gmail.com
-🔗 LinkedIn: [yourprofile](https://[linkedin.com/in/yourprofile](https://www.linkedin.com/in/saravanan-janarthanan-a067b03/)  
+🔗 LinkedIn: [My LinkedIn](https://www.linkedin.com/in/saravanan-janarthanan-a067b03/)  
 📁 GitHub: [jshravan-git](https://github.com/jshravan-git)
