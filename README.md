@@ -1,8 +1,11 @@
 # MSDS
 Data Science Projects and Codebase
 
+---
 ## About 
+I’m a data scientist focused on building models and tools for real-world applications, with experience in NLP, classification, and recommendation systems.
 
+---
 ## Work / Projects
 ### Airline Passenger Satisfaction Classification
 A classification project focused on predicting airline passenger satisfaction based on feedback related to services provided. The process includes data preparation, exploratory data analysis (EDA), and the application of various machine learning models, including an ensemble approach to improve prediction accuracy.
@@ -28,7 +31,10 @@ Using accident reports from Brazilian industries to understand workplace safety 
 ### Real-Time Fraud Detection Using Machine Learning
 Build a real-time fraud detection system using machine learning techniques
 
-	NLP -Build a Chatbot on Industrial Safety using accident Corpus
+
+---
 
 ## Contact
-
+📫 Email: jshravan@gmail.com
+🔗 LinkedIn: [yourprofile](https://[linkedin.com/in/yourprofile](https://www.linkedin.com/in/saravanan-janarthanan-a067b03/)  
+📁 GitHub: [jshravan-git](https://github.com/jshravan-git)
