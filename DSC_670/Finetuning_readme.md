@@ -5,7 +5,7 @@
 
 ---
 
-##  Project Objective
+##  Project Objective 
 
 This project demonstrates how to fine-tune an OpenAI language model using custom data. The goal is to create a model that provides precise and structured responses to domain-specific queries — in this case, about chicken recipes.
 
