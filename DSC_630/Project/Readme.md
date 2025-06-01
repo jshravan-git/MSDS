@@ -60,6 +60,14 @@ Several models were trained and evaluated:
 
 ---
 
+## Summary
+- Best Overall Performance: XGBoost Optimized and Random Forest due to their balanced metrics and low false negative rates.
+- Most Efficient in Reducing False Positives: Neural Network with a lower false positive count.
+- Simple and Fast Option: Logistic Regression is not competitive in performance but could serve as a quick reference point.
+- Trade-offs in Complexity and Interpretability: Models like Decision Trees and Random Forest provide interpretability through feature importance, while Neural Networks and SVM offer flexibility for more complex decision-making.
+- In summary, XGBoost Optimized is the most suitable choice for applications requiring the highest precision and recall balance, while Random Forest and SVM provide comparable alternatives.
+
+---
 ## Technologies Used
 
 - **Python**
