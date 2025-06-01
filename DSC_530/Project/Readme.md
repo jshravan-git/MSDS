@@ -1,4 +1,4 @@
-# Credit Risk Analysis - DSC530 Project
+# Credit Risk Analysis
 
 ## Project Overview
 
